@@ -1,0 +1,20 @@
+/* Center the search box */
+form {
+    text-align: center;
+}
+
+/* Add a purple background */
+body {
+    background-color: purple;
+}
+
+/* Style the headings */
+h1 {
+    color: white; /* Change the text color to white */
+}
+
+/* Style the URLs */
+p {
+    color: white; /* Change the text color to white */
+    margin: 10px 0; /* Add some spacing between paragraphs */
+}

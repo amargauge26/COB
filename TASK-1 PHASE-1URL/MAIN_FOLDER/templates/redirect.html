@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>URL Redirect</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>URL Redirect</h1>
+    <form action="/redirect" method="POST">
+        <input type="text" name="short_url" placeholder="Enter Shortened URL">
+        <input type="submit" value="Redirect">
+    </form>
+
+    <h2>Shortened URL:</h2>
+    <p>{{ shortened_url }}</p>
+
+    <h2>Original URL:</h2>
+    <p>{{ original_url }}</p>
+</body>
+</html>
