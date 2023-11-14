@@ -33,7 +33,7 @@ def clear_entries():
 def update_expense_list():
     expense_list.delete(0, tk.END)
     for expense in expenses:
-        expense_list.insert(tk.END, f"{expense['date']} - {expense['category']} - ${expense['amount']} - {expense['description']}")
+        expense_list.insert(tk.END, f"{expense['date']} - {expense['category']} - rs{expense['amount']} - {expense['description']}")
 
 #fun for the total
 def update_total_label():
