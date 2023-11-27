@@ -25,7 +25,7 @@ def per_con():
         label_result.config(text="Conversion failed. Please try again later.")
 
 # Load the background image
-bg_image = Image.open(r"C:\Users\AMAR9XD\OneDrive\Pictures\Screenshots\Screenshot 2023-11-27 231259.png")  # Provide the path to your image
+bg_image = Image.open(r"C:\Users\AMAR9XD\OneDrive\Pictures\Screenshots\Screenshot 2023-11-27 231259.png")  #its the image that i have used , so you need to add the file path that you want to be want as the background
 bg_photo = ImageTk.PhotoImage(bg_image)
 background_label = tk.Label(root, image=bg_photo)
 background_label.place(x=0, y=0, relwidth=1, relheight=1)
